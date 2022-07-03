@@ -132,6 +132,16 @@
                                         </property>
                                     </instructionsProperties>
                                 </artifact>
+                                <artifact>
+                                    <id>org.fxmisc.easybind:easybind:1.0.3</id>
+                                    <override>true</override>
+                                    <instructionsProperties>
+                                        <property>
+                                            <name>-noee</name>
+                                            <value>true</value>
+                                        </property>
+                                    </instructionsProperties>
+                                </artifact>
                             </artifacts>
                         </configuration>
                     </execution>
