@@ -142,6 +142,36 @@
                                         </property>
                                     </instructionsProperties>
                                 </artifact>
+                                <artifact>
+                                    <id>net.bytebuddy:byte-buddy:1.12.8</id>
+                                    <override>true</override>
+                                    <instructionsProperties>
+                                        <property>
+                                            <name>-noee</name>
+                                            <value>true</value>
+                                        </property>
+                                    </instructionsProperties>
+                                </artifact>
+                                <artifact>
+                                    <id>net.bytebuddy:byte-buddy-agent:1.12.8</id>
+                                    <override>true</override>
+                                    <instructionsProperties>
+                                        <property>
+                                            <name>-noee</name>
+                                            <value>true</value>
+                                        </property>
+                                    </instructionsProperties>
+                                </artifact>
+                                <artifact>
+                                    <id>org.objenesis:objenesis:3.2</id>
+                                    <override>true</override>
+                                    <instructionsProperties>
+                                        <property>
+                                            <name>-noee</name>
+                                            <value>true</value>
+                                        </property>
+                                    </instructionsProperties>
+                                </artifact>
                             </artifacts>
                         </configuration>
                     </execution>
