@@ -5,6 +5,9 @@
     <version>1.0.0</version>
     <packaging>pom</packaging>
     <name>Dependency Manager</name>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
     <build>
         <plugins>
             <plugin>
