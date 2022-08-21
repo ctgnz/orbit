@@ -175,6 +175,16 @@
                                         </property>
                                     </instructionsProperties>
                                 </artifact>
+                                <artifact>
+                                    <id>org.jsoup:jsoup:1.13.1</id>
+                                    <override>true</override>
+                                    <instructionsProperties>
+                                        <property>
+                                            <name>-noee</name>
+                                            <value>true</value>
+                                        </property>
+                                    </instructionsProperties>
+                                </artifact>
                             </artifacts>
                         </configuration>
                     </execution>
