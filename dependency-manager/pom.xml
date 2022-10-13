@@ -26,6 +26,16 @@
                                 <!-- specify your depencies here -->
                                 <!-- groupId:artifactId:version -->
                                 <artifact>
+                                    <id>commons-io:commons-io:2.8.0</id>
+                                    <override>true</override>
+                                    <instructionsProperties>
+                                        <property>
+                                            <name>-noee</name>
+                                            <value>true</value>
+                                        </property>
+                                    </instructionsProperties>
+                                </artifact>
+                                <artifact>
                                     <id>org.apache.commons:commons-lang3:3.9</id>
                                     <override>true</override>
                                     <instructionsProperties>
