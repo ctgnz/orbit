@@ -86,6 +86,16 @@
                                     </instructionsProperties>
                                 </artifact>
                                 <artifact>
+                                    <id>org.eclipse.persistence:org.eclipse.persistence.moxy:4.0.0</id>
+                                    <override>true</override>
+                                    <instructionsProperties>
+                                        <property>
+                                            <name>-noee</name>
+                                            <value>true</value>
+                                        </property>
+                                    </instructionsProperties>
+                                </artifact>
+                                <artifact>
                                     <id>org.openjfx:javafx-base:11.0.2</id>
                                     <override>true</override>
                                     <instructionsProperties>
