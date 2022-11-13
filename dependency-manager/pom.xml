@@ -96,6 +96,16 @@
                                     </instructionsProperties>
                                 </artifact>
                                 <artifact>
+                                    <id>com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.13.2</id>
+                                    <override>true</override>
+                                    <instructionsProperties>
+                                        <property>
+                                            <name>-noee</name>
+                                            <value>true</value>
+                                        </property>
+                                    </instructionsProperties>
+                                </artifact>
+                                <artifact>
                                     <id>org.openjfx:javafx-base:11.0.2</id>
                                     <override>true</override>
                                     <instructionsProperties>
