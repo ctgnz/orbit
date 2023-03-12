@@ -225,6 +225,16 @@
                                         </property>
                                     </instructionsProperties>
                                 </artifact>
+                                <artifact>
+                                    <id>org.springframework:spring-core:5.3.25</id>
+                                    <override>true</override>
+                                    <instructionsProperties>
+                                        <property>
+                                            <name>-noee</name>
+                                            <value>true</value>
+                                        </property>
+                                    </instructionsProperties>
+                                </artifact>
                             </artifacts>
                         </configuration>
                     </execution>
